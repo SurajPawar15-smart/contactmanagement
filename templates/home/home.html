@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    <title>Home</title>
+{% endblock %}
+
+{% block body %}
+    <div class="jumbotron">
+      <h1 class="display-4">Welcome</h1>
+      <p class="lead">This is a simple application where you can save your contact list.</p>
+      <hr class="my-4">
+      <a class="btn btn-primary" href="{% url 'contacts' %}" role="button">View Save Contacts</a>
+    </div>
+{% endblock %}
